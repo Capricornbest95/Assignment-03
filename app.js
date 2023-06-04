@@ -87,64 +87,64 @@
 
 // Task 01
 
-// var num1 = prompt("Enter Number 1");
-// var num2 = prompt("Enter Number 2");
-// var num3 = prompt("Enter Number 3");
+var num1 = prompt("Enter Number 1");
+var num2 = prompt("Enter Number 2");
+var num3 = prompt("Enter Number 3");
 
 
-//   if (num1 > num2 && num1 > num3) {
-//     if (num2 > num3) {
-//         console.log(num1 + ", " +  num2 + ", " +  num3);
-//     } else {
-//         console.log(num1 + ", " +  num3 + ", " +  num2);
-//     }
+  if (num1 > num2 && num1 > num3) {
+    if (num2 > num3) {
+        console.log(num1 + ", " +  num2 + ", " +  num3);
+    } else {
+        console.log(num1 + ", " +  num3 + ", " +  num2);
+    }
 
-//   } else if (num2 > num1 && num2 > num3) {
-//     if (num1 > num3) {
-//         console.log(num2 + ", " +  num1 + ", " +  num3);
-//     } else {
-//         console.log(num2 + ", " +  num3 + ", " +  num1);
-//     }
-//   } else if (num3 > num1 && num3 > num2) {
-//     if (num1 > num2) {
-//         console.log(num3 + ", " + num1 + ", " + num2);
-//     } else {
-//         console.log(num3 + ", " + num2 + ", " +  num1);
-//     }
-//   }
+  } else if (num2 > num1 && num2 > num3) {
+    if (num1 > num3) {
+        console.log(num2 + ", " +  num1 + ", " +  num3);
+    } else {
+        console.log(num2 + ", " +  num3 + ", " +  num1);
+    }
+  } else if (num3 > num1 && num3 > num2) {
+    if (num1 > num2) {
+        console.log(num3 + ", " + num1 + ", " + num2);
+    } else {
+        console.log(num3 + ", " + num2 + ", " +  num1);
+    }
+  }
 
 
 
 // Task 02
 
-// var lNum1 = prompt("Enter Number 1");
-// var lNum2 = prompt("Enter Number 2");
-// var lNum3 = prompt("Enter Number 3");
-// var lNum4 = prompt("Enter Number 4");
-// var lNum5 = prompt("Enter Number 5");
+var lNum1 = prompt("Enter Number 1");
+var lNum2 = prompt("Enter Number 2");
+var lNum3 = prompt("Enter Number 3");
+var lNum4 = prompt("Enter Number 4");
+var lNum5 = prompt("Enter Number 5");
 
-// if (lNum1 > lNum2 && lNum1 > lNum3 && lNum1 > lNum4 && lNum1 > lNum5 ) {
-//   console.log("Number 1 is largest number. Value is: " , lNum1);
-// } else if (lNum2 > lNum1 && lNum2 > lNum3 && lNum2 > lNum4 && lNum2 > lNum5 ) {
-//   console.log("Number 2 is largest number. Value is: " , lNum2);
-// } else if (lNum3 > lNum1 && lNum3 > lNum2 && lNum3 > lNum4 && lNum2 > lNum5 ) {
-//   console.log("Number 3 is largest number. Value is: " , lNum3);
-// } else if (lNum4 > lNum1 && lNum4 > lNum2 && lNum4 > lNum3 && lNum4 > lNum5 ) {
-//   console.log("Number 4 is largest number. Value is: " , lNum4);
-// } else if (lNum5 > lNum1 && lNum5 > lNum2 && lNum5 > lNum3 && lNum5 > lNum4 ) {
-//   console.log("Number 5 is largest number. Value is: " , lNum5);
-// }
+if (lNum1 > lNum2 && lNum1 > lNum3 && lNum1 > lNum4 && lNum1 > lNum5 ) {
+  console.log("Number 1 is largest number. Value is: " , lNum1);
+} else if (lNum2 > lNum1 && lNum2 > lNum3 && lNum2 > lNum4 && lNum2 > lNum5 ) {
+  console.log("Number 2 is largest number. Value is: " , lNum2);
+} else if (lNum3 > lNum1 && lNum3 > lNum2 && lNum3 > lNum4 && lNum2 > lNum5 ) {
+  console.log("Number 3 is largest number. Value is: " , lNum3);
+} else if (lNum4 > lNum1 && lNum4 > lNum2 && lNum4 > lNum3 && lNum4 > lNum5 ) {
+  console.log("Number 4 is largest number. Value is: " , lNum4);
+} else if (lNum5 > lNum1 && lNum5 > lNum2 && lNum5 > lNum3 && lNum5 > lNum4 ) {
+  console.log("Number 5 is largest number. Value is: " , lNum5);
+}
 
 
 // Task 03
 
-// for (i = 0; i < 15; i++) {
-//   if (i % 2 === 0) {
-//     console.log (i + " this is even");
-//   } else {
-//     console.log (i + " this is odd");
-//   } 
-// } 
+for (i = 0; i < 15; i++) {
+  if (i % 2 === 0) {
+    console.log (i + " this is even");
+  } else {
+    console.log (i + " this is odd");
+  } 
+} 
 
 // Task 04
 
